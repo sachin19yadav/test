@@ -1,0 +1,49 @@
+html body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.main-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: beige;
+    
+}
+
+.main-div >.sub_div{
+        width:700px;
+        height:400px;
+        outline:1px solid black;
+      
+}
+
+input[type=text] {
+    width: 670px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    outline: 1px solid green;
+  }
+
+  button{
+      margin 18px 0;
+      padding: 12px 12px;
+      margin-left: 300px;
+  }
+
+  h1{
+      text-align: center;
+  }
+
+  .input{
+      text-align: center;
+  }
+
+  label{
+      margin-left: 10px;
+  }
